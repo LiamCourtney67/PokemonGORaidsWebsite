@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="../scripts/script.js" defer></script>
+
+    <title>Pokémon GO Raids</title>
+  </head>
+
+  <body>
+    <nav class="navbar disable-highlighting">
+      <div class="branding">
+        <img class="logo" src="../images/pokeball.png" alt="logo">
+        <div class="title">Pokémon GO Raids</div>
+      </div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/raids.html">Raids</a></li>
+          <li>
+            <a href="../pages/friend-codes.html">
+              <span class="web-navbar-links">Friend Codes</span>
+              <span class="mobile-navbar-links">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="../pages/types.html">
+              <span class="web-navbar-links">Type Effectiveness</span>
+              <span class="mobile-navbar-links">Types</span>
+            </a>
+          </li>
+          <li>
+            <a href="../pages/player-info.html">
+              <span class="web-navbar-links">Player Info</span>
+              <span class="mobile-navbar-links">Player</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="player-main disable-highlighting">
+        <div class="form-containter">
+          <form action="friend-codes.html">
+            <fieldset class="form">
+              <legend>Player Info:</legend>
+              <div class="form-input-container">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" class="form-input"><br>
+              </div>
+              <div class="form-input-container">
+                <label for="code" class="form-label">Code:</label>
+                <input type="text" id="code" class="form-input"><br>
+              </div>
+              <div class="form-input-container">
+                <label for="level" class="form-label">Level:</label>
+                <input type="number" id="level" class="form-input" max="50">
+                <br>
+              </div>
+              <div class="form-button-container">
+                <input type="reset" class="form-button reset">
+                <input type="submit" value="Submit" class="form-button submit">
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div class="player-video-container">
+          <iframe class="player-video" src="https://www.youtube.com/embed/mkS2F5tOGBs">
+          </iframe>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer disable-highlighting">
+      <div class="footer-column-container">
+        <div class="footer-column column-1">
+          <h3>Fine print</h3>
+
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li>
+              <a href="#"><span class="desktop">Terms &amp; Conditions</span><span class="mobile">T&amp;Cs</span></a>
+            </li>
+            <li><a href="#">Site Map</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column column-2">
+          <h3>Official links</h3>
+
+          <ul>
+            <li><a href="https://pokemongolive.com/">Pokémon GO</a></li>
+            <li><a href="https://home.pokemon.com/">Pokémon HOME</a></li>
+            <li><a href="https://www.pokemon.com/">Pokémon.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column column-3">
+          <h3>Partners</h3>
+
+          <ul>
+            <li><a href="http://www.pokegenie.net/">PokeGenie</a></li>
+            <li><a href="https://nianticlabs.com/">Niantic Labs</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer-copyright">
+        Pokémon GO Raids. - All Rights Reserved &copy;2023
+      </p>
+    </footer>
+  </body>
+
+</html>
